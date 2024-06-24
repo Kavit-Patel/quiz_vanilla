@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div
+      id="app"
+      class="max-w-[1440px] min-h-screen bg-[#F6F4F0] flex flex-col justify-center items-center gap-3"
+    >
+      <img class="w-96" src="/images/quiz.png" alt="quiz" />
+      <a
+        href="./src/pages/quiz.html"
+        id="start"
+        class="bg-[#35BD3A] px-3 py-2 rounded-md text-white font-semibold shadow-emerald-900 text-xl transition-all hover:scale-105 active:scale-95"
+      >
+        Start Now >>>
+      </a>
+      <div class="mt-28">
+        <h2 id="highest-score text-xl"></h2>
+        <p class="text-xs">Made with &#10084; by Kavit Patel</p>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <main
+      class="max-w-[1440px] h-screen bg-[#CCE2C2] flex justify-center items-center"
+    >
+      <div class="w-full h-full p-12 border-2">
+        <div class="flex justify-between">
+          <img class="w-24" src="/images/quiz.png" alt="quiz" />
+          <div id="audioBtn" class="">
+            <img id="sound" class="w-6 h-6" src="/images/mute.png" alt="" />
+            <audio id="myAudio" src="/music/q1.mp3"></audio>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./quiz.ts"></script>
+  </body>
+</html>
