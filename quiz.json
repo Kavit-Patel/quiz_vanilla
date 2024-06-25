@@ -1,0 +1,814 @@
+{
+  "questions": [
+    {
+      "question": "What is React?",
+      "options": [
+        "A JavaScript library for building user interfaces",
+        "A framework for building mobile applications",
+        "A database management tool",
+        "A programming language"
+      ],
+      "answer": "A JavaScript library for building user interfaces"
+    },
+    {
+      "question": "Who developed React?",
+      "options": ["Google", "Facebook", "Microsoft", "Twitter"],
+      "answer": "Facebook"
+    },
+    {
+      "question": "What is JSX?",
+      "options": [
+        "A JavaScript syntax extension",
+        "A type of component",
+        "A method for handling state",
+        "A way to style components"
+      ],
+      "answer": "A JavaScript syntax extension"
+    },
+    {
+      "question": "How do you create a React component using a function?",
+      "options": [
+        "function MyComponent() { return <div>Hello World</div>; }",
+        "function MyComponent() { return ( <div>Hello World</div> ); }",
+        "function MyComponent() { return { <div>Hello World</div> }; }",
+        "function MyComponent() { return <div>Hello World</div> }"
+      ],
+      "answer": "function MyComponent() { return ( <div>Hello World</div> ); }"
+    },
+    {
+      "question": "What is the use of the useState hook?",
+      "options": [
+        "To manage the lifecycle of a component",
+        "To perform side effects in a component",
+        "To manage state in functional components",
+        "To create a context for global state management"
+      ],
+      "answer": "To manage state in functional components"
+    },
+    {
+      "question": "What is the virtual DOM?",
+      "options": [
+        "A representation of the real DOM in memory",
+        "A direct manipulation of the real DOM",
+        "A way to handle server-side rendering",
+        "A method for optimizing state management"
+      ],
+      "answer": "A representation of the real DOM in memory"
+    },
+    {
+      "question": "How do you pass data to a child component?",
+      "options": ["Using props", "Using state", "Using context", "Using hooks"],
+      "answer": "Using props"
+    },
+    {
+      "question": "What is the purpose of the useEffect hook?",
+      "options": [
+        "To handle asynchronous operations",
+        "To manage side effects in functional components",
+        "To handle form submissions",
+        "To fetch data from an API"
+      ],
+      "answer": "To manage side effects in functional components"
+    },
+    {
+      "question": "How do you conditionally render a component in React?",
+      "options": [
+        "Using an if statement inside JSX",
+        "Using the ternary operator or logical && operator in JSX",
+        "Using a switch statement",
+        "Using the forEach method"
+      ],
+      "answer": "Using the ternary operator or logical && operator in JSX"
+    },
+    {
+      "question": "What is the context API used for?",
+      "options": [
+        "To manage global state",
+        "To create reusable components",
+        "To optimize performance",
+        "To handle side effects"
+      ],
+      "answer": "To manage global state"
+    },
+    {
+      "question": "How do you handle events in React?",
+      "options": [
+        "Using inline event handlers",
+        "Using addEventListener",
+        "Using event delegation",
+        "Using the onEventName attribute"
+      ],
+      "answer": "Using the onEventName attribute"
+    },
+    {
+      "question": "What is a React Fragment?",
+      "options": [
+        "A way to return multiple elements without adding extra nodes to the DOM",
+        "A method for optimizing performance",
+        "A type of hook",
+        "A new way to write components"
+      ],
+      "answer": "A way to return multiple elements without adding extra nodes to the DOM"
+    },
+    {
+      "question": "What does the key prop do in React?",
+      "options": [
+        "It helps identify which items have changed, are added, or are removed in a list",
+        "It sets the value of an input element",
+        "It is used to pass data to a component",
+        "It is used to handle events"
+      ],
+      "answer": "It helps identify which items have changed, are added, or are removed in a list"
+    },
+    {
+      "question": "What is the purpose of prop-types in React?",
+      "options": [
+        "To document the intended types of properties passed to components",
+        "To manage state in class components",
+        "To perform side effects",
+        "To create context for global state management"
+      ],
+      "answer": "To document the intended types of properties passed to components"
+    },
+    {
+      "question": "How do you create a ref in React?",
+      "options": [
+        "Using React.createRef or the useRef hook",
+        "Using the ref attribute on a DOM element",
+        "Using the useState hook",
+        "Using the useEffect hook"
+      ],
+      "answer": "Using React.createRef or the useRef hook"
+    },
+    {
+      "question": "What is the difference between state and props in React?",
+      "options": [
+        "State is managed within the component, props are passed from parent to child",
+        "Props are managed within the component, state is passed from parent to child",
+        "State is used for styling, props are used for logic",
+        "Props are used for styling, state is used for logic"
+      ],
+      "answer": "State is managed within the component, props are passed from parent to child"
+    },
+    {
+      "question": "What is the purpose of the shouldComponentUpdate lifecycle method?",
+      "options": [
+        "To determine whether the component should update",
+        "To handle side effects in a component",
+        "To fetch data from an API",
+        "To manage state in class components"
+      ],
+      "answer": "To determine whether the component should update"
+    },
+    {
+      "question": "How do you optimize performance in a React application?",
+      "options": [
+        "Using React.memo, useCallback, and useMemo",
+        "Using setTimeout",
+        "Using prop-types",
+        "Using inline styles"
+      ],
+      "answer": "Using React.memo, useCallback, and useMemo"
+    },
+    {
+      "question": "What is the difference between a controlled and uncontrolled component?",
+      "options": [
+        "Controlled components have their state managed by React, uncontrolled components manage their own state",
+        "Uncontrolled components have their state managed by React, controlled components manage their own state",
+        "Controlled components are used for forms, uncontrolled components are used for other elements",
+        "There is no difference"
+      ],
+      "answer": "Controlled components have their state managed by React, uncontrolled components manage their own state"
+    },
+    {
+      "question": "How do you update the state in a React component?",
+      "options": [
+        "Using the setState method in class components or the useState hook in functional components",
+        "Directly modifying the state object",
+        "Using props",
+        "Using the forceUpdate method"
+      ],
+      "answer": "Using the setState method in class components or the useState hook in functional components"
+    },
+    {
+      "question": "What is Redux?",
+      "options": [
+        "A predictable state container for JavaScript apps",
+        "A JavaScript library for building user interfaces",
+        "A tool for handling side effects",
+        "A method for fetching data from an API"
+      ],
+      "answer": "A predictable state container for JavaScript apps"
+    },
+    {
+      "question": "What is the purpose of the connect function in React Redux?",
+      "options": [
+        "To connect a React component to the Redux store",
+        "To handle side effects in a component",
+        "To manage state in functional components",
+        "To fetch data from an API"
+      ],
+      "answer": "To connect a React component to the Redux store"
+    },
+    {
+      "question": "What is the use of the useReducer hook?",
+      "options": [
+        "To manage complex state logic in functional components",
+        "To perform side effects",
+        "To create a context for global state management",
+        "To handle form submissions"
+      ],
+      "answer": "To manage complex state logic in functional components"
+    },
+    {
+      "question": "How do you fetch data from an API in React?",
+      "options": [
+        "Using the fetch API or libraries like Axios in conjunction with useEffect",
+        "Using the useState hook",
+        "Using the useReducer hook",
+        "Using the useContext hook"
+      ],
+      "answer": "Using the fetch API or libraries like Axios in conjunction with useEffect"
+    },
+    {
+      "question": "What is the purpose of the React Router library?",
+      "options": [
+        "To handle routing in single-page applications",
+        "To manage state",
+        "To handle form submissions",
+        "To perform side effects"
+      ],
+      "answer": "To handle routing in single-page applications"
+    },
+    {
+      "question": "How do you create a context in React?",
+      "options": [
+        "Using React.createContext",
+        "Using the useState hook",
+        "Using the useEffect hook",
+        "Using the useReducer hook"
+      ],
+      "answer": "Using React.createContext"
+    },
+    {
+      "question": "What is the use of the useContext hook?",
+      "options": [
+        "To consume a context in a functional component",
+        "To create a context",
+        "To manage state in class components",
+        "To handle side effects"
+      ],
+      "answer": "To consume a context in a functional component"
+    },
+    {
+      "question": "What is the purpose of the React.StrictMode component?",
+      "options": [
+        "To identify potential problems in an application",
+        "To manage state in class components",
+        "To handle side effects",
+        "To optimize performance"
+      ],
+      "answer": "To identify potential problems in an application"
+    },
+    {
+      "question": "How do you create a higher-order component in React?",
+      "options": [
+        "By creating a function that takes a component and returns a new component",
+        "By using the useEffect hook",
+        "By using the useState hook",
+        "By using the useReducer hook"
+      ],
+      "answer": "By creating a function that takes a component and returns a new component"
+    },
+    {
+      "question": "What is the difference between useEffect and useLayoutEffect?",
+      "options": [
+        "useEffect runs asynchronously, useLayoutEffect runs synchronously after all DOM mutations",
+        "useLayoutEffect runs asynchronously, useEffect runs synchronously after all DOM mutations",
+        "useEffect is used for managing state, useLayoutEffect is used for side effects",
+        "There is no difference"
+      ],
+      "answer": "useEffect runs asynchronously, useLayoutEffect runs synchronously after all DOM mutations"
+    },
+    {
+      "question": "How do you memoize a function in React?",
+      "options": [
+        "Using the useCallback hook",
+        "Using the useState hook",
+        "Using the useEffect hook",
+        "Using the useReducer hook"
+      ],
+      "answer": "Using the useCallback hook"
+    },
+    {
+      "question": "What is the purpose of React.memo?",
+      "options": [
+        "To prevent unnecessary re-renders of a component",
+        "To manage state in functional components",
+        "To handle side effects",
+        "To create a context"
+      ],
+      "answer": "To prevent unnecessary re-renders of a component"
+    },
+    {
+      "question": "What is the difference between a class component and a functional component?",
+      "options": [
+        "Class components can have state and lifecycle methods, functional components use hooks for state and side effects",
+        "Functional components can have state and lifecycle methods, class components use hooks for state and side effects",
+        "Class components are faster than functional components",
+        "There is no difference"
+      ],
+      "answer": "Class components can have state and lifecycle methods, functional components use hooks for state and side effects"
+    },
+    {
+      "question": "How do you handle errors in a React component?",
+      "options": [
+        "Using error boundaries",
+        "Using try-catch blocks",
+        "Using the useState hook",
+        "Using the useEffect hook"
+      ],
+      "answer": "Using error boundaries"
+    },
+    {
+      "question": "What is the purpose of the useRef hook?",
+      "options": [
+        "To create a mutable object that persists across renders",
+        "To manage state in functional components",
+        "To handle side effects",
+        "To create a context"
+      ],
+      "answer": "To create a mutable object that persists across renders"
+    },
+    {
+      "question": "How do you create a custom hook in React?",
+      "options": [
+        "By creating a function that uses other hooks and starts with 'use'",
+        "By using the useState hook",
+        "By using the useEffect hook",
+        "By using the useReducer hook"
+      ],
+      "answer": "By creating a function that uses other hooks and starts with 'use'"
+    },
+    {
+      "question": "What is the purpose of the useMemo hook?",
+      "options": [
+        "To memoize a value so that it is only recalculated when its dependencies change",
+        "To manage state in functional components",
+        "To handle side effects",
+        "To create a context"
+      ],
+      "answer": "To memoize a value so that it is only recalculated when its dependencies change"
+    },
+    {
+      "question": "How do you style a React component?",
+      "options": [
+        "Using inline styles, CSS stylesheets, or CSS-in-JS libraries",
+        "Using the useState hook",
+        "Using the useEffect hook",
+        "Using the useReducer hook"
+      ],
+      "answer": "Using inline styles, CSS stylesheets, or CSS-in-JS libraries"
+    },
+    {
+      "question": "What is the purpose of the ReactDOM library?",
+      "options": [
+        "To provide DOM-specific methods that can be used at the top level of a web app",
+        "To manage state in functional components",
+        "To handle side effects",
+        "To create a context"
+      ],
+      "answer": "To provide DOM-specific methods that can be used at the top level of a web app"
+    },
+    {
+      "question": "What is the difference between a presentational component and a container component?",
+      "options": [
+        "Presentational components focus on UI, container components handle logic and state",
+        "Container components focus on UI, presentational components handle logic and state",
+        "There is no difference",
+        "Both are the same"
+      ],
+      "answer": "Presentational components focus on UI, container components handle logic and state"
+    },
+    {
+      "question": "How do you handle form submissions in React?",
+      "options": [
+        "Using controlled components and handling the submit event",
+        "Using uncontrolled components",
+        "Using the useState hook",
+        "Using the useEffect hook"
+      ],
+      "answer": "Using controlled components and handling the submit event"
+    },
+    {
+      "question": "What is the purpose of the useImperativeHandle hook?",
+      "options": [
+        "To customize the instance value that is exposed when using ref",
+        "To manage state in functional components",
+        "To handle side effects",
+        "To create a context"
+      ],
+      "answer": "To customize the instance value that is exposed when using ref"
+    },
+    {
+      "question": "What is the purpose of the React.lazy function?",
+      "options": [
+        "To lazy-load a component when it is needed",
+        "To manage state in functional components",
+        "To handle side effects",
+        "To create a context"
+      ],
+      "answer": "To lazy-load a component when it is needed"
+    },
+    {
+      "question": "How do you handle routing in a React application?",
+      "options": [
+        "Using the React Router library",
+        "Using the useState hook",
+        "Using the useEffect hook",
+        "Using the useReducer hook"
+      ],
+      "answer": "Using the React Router library"
+    },
+    {
+      "question": "What is the purpose of the Suspense component?",
+      "options": [
+        "To display a fallback while a component is being lazy-loaded",
+        "To manage state in functional components",
+        "To handle side effects",
+        "To create a context"
+      ],
+      "answer": "To display a fallback while a component is being lazy-loaded"
+    },
+    {
+      "question": "How do you create a portal in React?",
+      "options": [
+        "Using ReactDOM.createPortal",
+        "Using the useState hook",
+        "Using the useEffect hook",
+        "Using the useReducer hook"
+      ],
+      "answer": "Using ReactDOM.createPortal"
+    },
+    {
+      "question": "What is the purpose of the React.StrictMode component?",
+      "options": [
+        "To identify potential problems in an application",
+        "To manage state in functional components",
+        "To handle side effects",
+        "To create a context"
+      ],
+      "answer": "To identify potential problems in an application"
+    },
+    {
+      "question": "What is the difference between a controlled and uncontrolled component?",
+      "options": [
+        "Controlled components have their state managed by React, uncontrolled components manage their own state",
+        "Uncontrolled components have their state managed by React, controlled components manage their own state",
+        "Controlled components are used for forms, uncontrolled components are used for other elements",
+        "There is no difference"
+      ],
+      "answer": "Controlled components have their state managed by React, uncontrolled components manage their own state"
+    },
+    {
+      "question": "How do you optimize performance in a React application?",
+      "options": [
+        "Using React.memo, useCallback, and useMemo",
+        "Using setTimeout",
+        "Using prop-types",
+        "Using inline styles"
+      ],
+      "answer": "Using React.memo, useCallback, and useMemo"
+    },
+    {
+      "question": "What is Redux?",
+      "options": [
+        "A predictable state container for JavaScript apps",
+        "A JavaScript library for building user interfaces",
+        "A tool for handling side effects",
+        "A method for fetching data from an API"
+      ],
+      "answer": "A predictable state container for JavaScript apps"
+    },
+    {
+      "question": "How do you update the state in a React component?",
+      "options": [
+        "Using the setState method in class components or the useState hook in functional components",
+        "Directly modifying the state object",
+        "Using props",
+        "Using the forceUpdate method"
+      ],
+      "answer": "Using the setState method in class components or the useState hook in functional components"
+    },
+    {
+      "question": "What is the use of the useReducer hook?",
+      "options": [
+        "To manage complex state logic in functional components",
+        "To perform side effects",
+        "To create a context for global state management",
+        "To handle form submissions"
+      ],
+      "answer": "To manage complex state logic in functional components"
+    },
+    {
+      "question": "How do you fetch data from an API in React?",
+      "options": [
+        "Using the fetch API or libraries like Axios in conjunction with useEffect",
+        "Using the useState hook",
+        "Using the useReducer hook",
+        "Using the useContext hook"
+      ],
+      "answer": "Using the fetch API or libraries like Axios in conjunction with useEffect"
+    },
+    {
+      "question": "What is the purpose of the connect function in React Redux?",
+      "options": [
+        "To connect a React component to the Redux store",
+        "To handle side effects in a component",
+        "To manage state in functional components",
+        "To fetch data from an API"
+      ],
+      "answer": "To connect a React component to the Redux store"
+    },
+    {
+      "question": "What is the context API used for?",
+      "options": [
+        "To manage global state",
+        "To create reusable components",
+        "To optimize performance",
+        "To handle side effects"
+      ],
+      "answer": "To manage global state"
+    },
+    {
+      "question": "How do you pass data to a child component?",
+      "options": ["Using props", "Using state", "Using context", "Using hooks"],
+      "answer": "Using props"
+    },
+    {
+      "question": "What is JSX?",
+      "options": [
+        "A JavaScript syntax extension",
+        "A type of component",
+        "A method for handling state",
+        "A way to style components"
+      ],
+      "answer": "A JavaScript syntax extension"
+    },
+    {
+      "question": "Who developed React?",
+      "options": ["Google", "Facebook", "Microsoft", "Twitter"],
+      "answer": "Facebook"
+    },
+    {
+      "question": "What is the use of the useState hook?",
+      "options": [
+        "To manage the lifecycle of a component",
+        "To perform side effects in a component",
+        "To manage state in functional components",
+        "To create a context for global state management"
+      ],
+      "answer": "To manage state in functional components"
+    },
+    {
+      "question": "What is the virtual DOM?",
+      "options": [
+        "A representation of the real DOM in memory",
+        "A direct manipulation of the real DOM",
+        "A way to handle server-side rendering",
+        "A method for optimizing state management"
+      ],
+      "answer": "A representation of the real DOM in memory"
+    },
+    {
+      "question": "What is the purpose of the useEffect hook?",
+      "options": [
+        "To handle asynchronous operations",
+        "To manage side effects in functional components",
+        "To handle form submissions",
+        "To fetch data from an API"
+      ],
+      "answer": "To manage side effects in functional components"
+    },
+    {
+      "question": "How do you conditionally render a component in React?",
+      "options": [
+        "Using an if statement inside JSX",
+        "Using the ternary operator or logical && operator in JSX",
+        "Using a switch statement",
+        "Using the forEach method"
+      ],
+      "answer": "Using the ternary operator or logical && operator in JSX"
+    },
+    {
+      "question": "How do you create a React component using a function?",
+      "options": [
+        "function MyComponent() { return <div>Hello World</div>; }",
+        "function MyComponent() { return ( <div>Hello World</div> ); }",
+        "function MyComponent() { return { <div>Hello World</div> }; }",
+        "function MyComponent() { return <div>Hello World</div> }"
+      ],
+      "answer": "function MyComponent() { return ( <div>Hello World</div> ); }"
+    },
+    {
+      "question": "What is the purpose of prop-types in React?",
+      "options": [
+        "To document the intended types of properties passed to components",
+        "To manage state in class components",
+        "To perform side effects",
+        "To create context for global state management"
+      ],
+      "answer": "To document the intended types of properties passed to components"
+    },
+    {
+      "question": "How do you create a ref in React?",
+      "options": [
+        "Using React.createRef or the useRef hook",
+        "Using the ref attribute on a DOM element",
+        "Using the useState hook",
+        "Using the useEffect hook"
+      ],
+      "answer": "Using React.createRef or the useRef hook"
+    },
+    {
+      "question": "What is the purpose of the ReactDOM library?",
+      "options": [
+        "To provide DOM-specific methods that can be used at the top level of a web app",
+        "To manage state in functional components",
+        "To handle side effects",
+        "To create a context"
+      ],
+      "answer": "To provide DOM-specific methods that can be used at the top level of a web app"
+    },
+    {
+      "question": "What is the purpose of the React.StrictMode component?",
+      "options": [
+        "To identify potential problems in an application",
+        "To manage state in functional components",
+        "To handle side effects",
+        "To create a context"
+      ],
+      "answer": "To identify potential problems in an application"
+    },
+    {
+      "question": "What is the purpose of React.memo?",
+      "options": [
+        "To prevent unnecessary re-renders of a component",
+        "To manage state in functional components",
+        "To handle side effects",
+        "To create a context"
+      ],
+      "answer": "To prevent unnecessary re-renders of a component"
+    },
+    {
+      "question": "How do you handle form submissions in React?",
+      "options": [
+        "Using controlled components and handling the submit event",
+        "Using uncontrolled components",
+        "Using the useState hook",
+        "Using the useEffect hook"
+      ],
+      "answer": "Using controlled components and handling the submit event"
+    },
+    {
+      "question": "How do you memoize a function in React?",
+      "options": [
+        "Using the useCallback hook",
+        "Using the useState hook",
+        "Using the useEffect hook",
+        "Using the useReducer hook"
+      ],
+      "answer": "Using the useCallback hook"
+    },
+    {
+      "question": "What is the purpose of the useRef hook?",
+      "options": [
+        "To create a mutable object that persists across renders",
+        "To manage state in functional components",
+        "To handle side effects",
+        "To create a context"
+      ],
+      "answer": "To create a mutable object that persists across renders"
+    },
+    {
+      "question": "What is the purpose of the React.lazy function?",
+      "options": [
+        "To lazy-load a component when it is needed",
+        "To manage state in functional components",
+        "To handle side effects",
+        "To create a context"
+      ],
+      "answer": "To lazy-load a component when it is needed"
+    },
+    {
+      "question": "What is the purpose of the useMemo hook?",
+      "options": [
+        "To memoize a value so that it is only recalculated when its dependencies change",
+        "To manage state in functional components",
+        "To handle side effects",
+        "To create a context"
+      ],
+      "answer": "To memoize a value so that it is only recalculated when its dependencies change"
+    },
+    {
+      "question": "How do you handle routing in a React application?",
+      "options": [
+        "Using the React Router library",
+        "Using the useState hook",
+        "Using the useEffect hook",
+        "Using the useReducer hook"
+      ],
+      "answer": "Using the React Router library"
+    },
+    {
+      "question": "What is the difference between useEffect and useLayoutEffect?",
+      "options": [
+        "useEffect runs asynchronously, useLayoutEffect runs synchronously after all DOM mutations",
+        "useLayoutEffect runs asynchronously, useEffect runs synchronously after all DOM mutations",
+        "useEffect is used for managing state, useLayoutEffect is used for side effects",
+        "There is no difference"
+      ],
+      "answer": "useEffect runs asynchronously, useLayoutEffect runs synchronously after all DOM mutations"
+    },
+    {
+      "question": "What is the difference between a class component and a functional component?",
+      "options": [
+        "Class components can have state and lifecycle methods, functional components use hooks for state and side effects",
+        "Functional components can have state and lifecycle methods, class components use hooks for state and side effects",
+        "Class components are faster than functional components",
+        "There is no difference"
+      ],
+      "answer": "Class components can have state and lifecycle methods, functional components use hooks for state and side effects"
+    },
+    {
+      "question": "What is the difference between state and props in React?",
+      "options": [
+        "State is managed within the component, props are passed to the component",
+        "Props are managed within the component, state is passed to the component",
+        "There is no difference",
+        "State is used for styling, props are used for logic"
+      ],
+      "answer": "State is managed within the component, props are passed to the component"
+    },
+    {
+      "question": "How do you update the state in a React component?",
+      "options": [
+        "Using the setState method in class components or the useState hook in functional components",
+        "Directly modifying the state object",
+        "Using props",
+        "Using the forceUpdate method"
+      ],
+      "answer": "Using the setState method in class components or the useState hook in functional components"
+    },
+    {
+      "question": "What is the purpose of the useReducer hook?",
+      "options": [
+        "To manage complex state logic in functional components",
+        "To perform side effects",
+        "To create a context for global state management",
+        "To handle form submissions"
+      ],
+      "answer": "To manage complex state logic in functional components"
+    },
+    {
+      "question": "What is Redux?",
+      "options": [
+        "A predictable state container for JavaScript apps",
+        "A JavaScript library for building user interfaces",
+        "A tool for handling side effects",
+        "A method for fetching data from an API"
+      ],
+      "answer": "A predictable state container for JavaScript apps"
+    },
+    {
+      "question": "How do you handle errors in a React component?",
+      "options": [
+        "Using error boundaries",
+        "Using try-catch blocks",
+        "Using the useState hook",
+        "Using the useEffect hook"
+      ],
+      "answer": "Using error boundaries"
+    },
+    {
+      "question": "What is the purpose of the Suspense component?",
+      "options": [
+        "To display a fallback while a component is being lazy-loaded",
+        "To manage state in functional components",
+        "To handle side effects",
+        "To create a context"
+      ],
+      "answer": "To display a fallback while a component is being lazy-loaded"
+    },
+    {
+      "question": "How do you style a React component?",
+      "options": [
+        "Using inline styles, CSS stylesheets, or CSS-in-JS libraries",
+        "Using the useState hook",
+        "Using the useEffect hook",
+        "Using the useReducer hook"
+      ],
+      "answer": "Using inline styles, CSS stylesheets, or CSS-in-JS libraries"
+    }
+  ]
+}

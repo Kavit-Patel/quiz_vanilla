@@ -10,7 +10,8 @@
   <body>
     <div
       id="app"
-      class="max-w-[1440px] min-h-screen bg-[#F6F4F0] flex flex-col justify-center items-center gap-3"
+      class="max-w-[1940px] bg-[#F6F4F0] flex flex-col justify-center items-center gap-3"
+      style="width: 100%; min-height: calc(100vh - 0.7px)"
     >
       <img class="w-96" src="/images/quiz.png" alt="quiz" />
       <a
@@ -22,7 +23,9 @@
       </a>
       <div class="mt-28">
         <h2 id="highest-score text-xl"></h2>
-        <p class="text-xs">Made with &#10084; by Kavit Patel</p>
+        <p class="text-xs">
+          Made with <span class="text-red-500">&#10084;</span> by Kavit Patel
+        </p>
       </div>
     </div>
     <script type="module" src="/src/main.ts"></script>

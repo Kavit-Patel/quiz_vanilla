@@ -6,18 +6,46 @@
     <title>Quiz</title>
     <link rel="stylesheet" href="../style.css" />
   </head>
+
   <body>
-    <main
-      class="max-w-[1440px] h-screen bg-[#CCE2C2] flex justify-center items-center"
-    >
-      <div class="w-full h-full p-12 border-2">
+    <main class="max-w-[1940px] bg-[#D4D69F] flex justify-center items-center">
+      <div
+        class="w-full p-12 flex flex-col gap-4"
+        style="width: 100%; min-height: calc(100vh - 0.7px)"
+      >
         <div class="flex justify-between">
           <img class="w-24" src="/images/quiz.png" alt="quiz" />
           <div id="audioBtn" class="">
-            <img id="sound" class="w-6 h-6" src="/images/mute.png" alt="" />
+            <img
+              id="sound"
+              class="w-6 h-6 transition-all hover:scale-105 active:scale-95"
+              src="/images/mute.png"
+              alt=""
+            />
             <audio id="myAudio" src="/music/q1.mp3"></audio>
           </div>
         </div>
+        <div
+          id="queIdx"
+          class="rounded-md text-center px-4 py-1 text-xl font-bold bg-[#FEC33D] self-end"
+        ></div>
+        <div id="que" class="bg-[#eae5e5] p-4 text-xl rounded-lg"></div>
+        <div
+          id="timer"
+          class="rounded-md text-center px-4 py-1 text-xl text-white font-bold bg-[#C5B100] self-end"
+        >
+          00:30
+        </div>
+        <div id="ans" class="bg-[#eae5e5] p-4 flex flex-col gap-2"></div>
+        <div
+          id="next"
+          class="text-[#C58800] text-xl cursor-pointer font-semibold self-end transition-all hover:text-[#ad852d] active:scale-95"
+        >
+          Next >
+        </div>
+        <p class="text-xs text-center">
+          Made with <span class="text-red-500">&#10084;</span> by Kavit Patel
+        </p>
       </div>
     </main>
     <script type="module" src="./quiz.ts"></script>

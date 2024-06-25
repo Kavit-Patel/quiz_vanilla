@@ -10,7 +10,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, "index.html"),
         products: resolve(__dirname, "./src/pages/quiz.html"),
-        // product: resolve(__dirname, "./src/pages/product.html"),
+        product: resolve(__dirname, "./src/pages/result.html"),
         // cart: resolve(__dirname, "./src/pages/cart.html"),
         // header: resolve(__dirname, "./src/components/navbar.html"),
         // footer: resolve(__dirname, "./src/components/footer.html"),
