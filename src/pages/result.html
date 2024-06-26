@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+
+  <body>
+    <main class="max-w-[1940px] bg-[#D4D69F] flex justify-center items-center">
+      <div
+        class="w-full p-12 flex flex-col gap-4"
+        style="width: 100%; min-height: calc(100vh - 0.7px)"
+      >
+        <div class="flex flex-col items-center">
+          <img class="w-24" src="/images/quiz.png" alt="quiz" />
+          <span class="self-center text-sm font-bold">Result</span>
+        </div>
+        <div
+          id="progress"
+          class="w-[50%] h-10 border-2 rounded-3xl self-center mt-5 flex"
+        >
+          <span
+            id="correct"
+            class="h-full bg-green-400 block rounded-l-3xl"
+          ></span>
+          <span
+            id="incorrect"
+            class="h-full bg-red-400 block rounded-r-3xl"
+          ></span>
+        </div>
+        <div id="scoreCard" class="self-center text-sm"></div>
+        <a
+          href="/src/pages/quiz.html"
+          class="self-center mt-10 bg-green-700 px-4 py-2 text-white font-semibold rounded-md transition-all hover:scale-105 active:scale-95"
+          >Play Again</a
+        >
+        <!-- <div
+          id="next"
+          class="text-[#C58800] text-xl mt-auto cursor-pointer font-semibold self-end transition-all hover:text-[#ad852d] active:scale-95"
+        >
+          Next >
+        </div> -->
+        <p class="text-xs text-center mt-auto">
+          Made with <span class="text-red-500">&#10084;</span> by Kavit Patel
+        </p>
+      </div>
+    </main>
+    <script type="module" src="./result.ts"></script>
+  </body>
+</html>
